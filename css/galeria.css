@@ -1,0 +1,19 @@
+.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    width: 350px;
+}
+.galeria img{
+    width: 100%;
+    height: auto;
+}
+.galeria:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+}
+.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+}
